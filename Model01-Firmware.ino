@@ -92,17 +92,13 @@ enum { MACRO_VERSION_INFO,
   *    https://github.com/keyboardio/Kaleidoscope/blob/master/src/key_defs_sysctl.h
   *    https://github.com/keyboardio/Kaleidoscope/blob/master/src/key_defs_keymaps.h
   *
-  * Additional things that should be documented here include
-  *   using ___ to let keypresses fall through to the previously active layer
-  *   using XXX to mark a keyswitch as 'blocked' on this layer
-  *   using ShiftToLayer() and LockLayer() keys to change the active keymap.
-  *   the special nature of the PROG key
-  *   keeping NUM and FN consistent and accessible on all layers
-  *
-  *
   * The "keymaps" data structure is a list of the keymaps compiled into the firmware.
   * The order of keymaps in the list is important, as the ShiftToLayer(#) and LockLayer(#)
   * macros switch to key layers based on this list.
+  *
+  * There is a lot more explanation of how this all works here: 
+  * 
+  * https://github.com/keyboardio/Kaleidoscope/wiki/Keyboardio-Model-01-Introduction
   *
   *
 
